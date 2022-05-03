@@ -124,7 +124,8 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 8rem;
+    height: 75vh;
   }
 }
 /* Media Queries (Small Device) */
@@ -135,5 +136,10 @@ img {
 
   section > h2 {
     margin-top: 6rem;
+  }
+
+  section {
+    height: 120vh;
+    margin-top: 10rem;
   }
 }

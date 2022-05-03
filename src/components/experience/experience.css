@@ -36,3 +36,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
+
+/* Media Queries (Medium Device) */
+@media screen and (max-width: 1024px) {
+  .experience__frontend {
+    width: 68vh;
+  }
+}
+/* Media Queries (Small Device) */
+@media screen and (max-width: 600px) {
+  .experience__frontend {
+    width: 45vh;
+  }
+  .experience__content {
+    justify-content: center;
+  }
+}
