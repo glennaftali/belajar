@@ -90,13 +90,15 @@
 /* Media Queries (Small Device) */
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 65%;
+    width: 50%;
     margin: 0 auto 3rem;
   }
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin: 2rem;
+    margin-top: 0;
   }
 
   .about__content {
@@ -104,6 +106,6 @@
   }
 
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 1rem 1rem;
   }
 }

@@ -61,7 +61,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 2rem;
   height: 100vh;
 }
 
@@ -94,7 +94,7 @@ a:hover {
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  border-radius: 5rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
@@ -124,8 +124,12 @@ img {
   }
 
   section {
-    margin-top: 8rem;
-    height: 75vh;
+    margin-top: 1rem;
+    height: 85vh;
+  }
+
+  .btn {
+    place-items: center;
   }
 }
 /* Media Queries (Small Device) */
@@ -134,12 +138,13 @@ img {
     width: var(--container-width-sm);
   }
 
-  section > h2 {
-    margin-top: 6rem;
+  section > h2,
+  section > h5 {
+    margin-top: -1rem;
   }
 
   section {
-    height: 120vh;
-    margin-top: 10rem;
+    height: 115vh;
+    margin-top: 8rem;
   }
 }
