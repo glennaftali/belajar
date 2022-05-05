@@ -4,7 +4,7 @@ import { BsCheckLg } from "react-icons/bs";
 
 export const Services = () => {
   return (
-    <section id="services">
+    <section id="services" className="range">
       <h5>What i offer</h5>
       <h2>Services</h2>
 

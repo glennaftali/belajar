@@ -69,11 +69,19 @@
   }
 
   .service {
-    margin: 0px 13px;
+    margin: 15px 13px;
   }
 
   .service__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .service__list-icon {
+    font-size: 30px;
+  }
+
+  .service__header {
+    margin-bottom: 10px;
   }
 }
