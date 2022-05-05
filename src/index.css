@@ -61,7 +61,7 @@ h1 {
 }
 
 section {
-  margin-top: 1rem;
+  margin-top: 5rem;
   height: 100vh;
 }
 
@@ -140,11 +140,15 @@ img {
 
   section > h2,
   section > h5 {
-    margin-top: 0.5rem;
+    margin-top: 1px;
   }
 
   section {
-    height: 115vh;
-    margin-top: 3rem;
+    height: 110vh;
+    margin-top: 15rem;
+  }
+
+  .range {
+    margin-top: -200px;
   }
 }
