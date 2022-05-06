@@ -1,7 +1,7 @@
 .experience__container {
   display: flex;
-  width: auto;
   justify-content: center;
+  width: 10px;
 }
 
 .experience__container > div {
@@ -9,6 +9,7 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid;
+  width: 80vh;
 }
 
 .experience__frontend {
@@ -46,9 +47,10 @@
 /* Media Queries (Small Device) */
 @media screen and (max-width: 600px) {
   .experience__frontend {
-    width: 45vh;
+    margin: -1rem 3rem;
   }
   .experience__content {
-    justify-content: center;
+    width: auto;
+    margin: 1rem -3rem;
   }
 }
